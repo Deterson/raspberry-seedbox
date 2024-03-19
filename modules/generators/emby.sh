@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e """  emby:
-    image: lscr.io/linuxserver/emby:latest
+    image: emby/embyserver:latest
     container_name: emby
     environment:
       - PUID=1000

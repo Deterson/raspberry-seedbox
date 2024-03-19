@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e """  jellyfin:
-    image: lscr.io/linuxserver/jellyfin:latest
+    image: lscr.io/linuxserver/jellyfin:arm64v8-latest
     container_name: jellyfin
     environment:
       - PUID=1000
@@ -10,7 +10,7 @@ echo -e """  jellyfin:
       - ${config}/jellyfin:/config
       - ${media}:/media:ro
     ports:
-      - 8096:8096    
+      - 8097:8097
     devices:
       - /dev/video10:/dev/video10
       - /dev/video11:/dev/video11

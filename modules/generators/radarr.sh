@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e """  radarr:
-    image: lscr.io/linuxserver/radarr:latest
+    image: lscr.io/linuxserver/radarr:arm64v8-latest
     container_name: radarr
     environment:
         - PUID=1000

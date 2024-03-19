@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e """  sonarr:
-    image: lscr.io/linuxserver/sonarr:latest
+    image: lscr.io/linuxserver/sonarr:arm64v8-latest
     container_name: sonarr
     environment:
         - PUID=1000

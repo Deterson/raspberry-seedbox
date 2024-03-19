@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e """  jackett:
-    image: lscr.io/linuxserver/jackett:latest
+    image: lscr.io/linuxserver/jackett:arm64v8-latest
     container_name: jackett
     environment:
       - PUID=1000
